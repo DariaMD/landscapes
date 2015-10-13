@@ -1,11 +1,17 @@
 .container {
     width: 75%;    
 }
-header h1,header h4 {
-    color: #6d6f71;
-    text-align: center;
-    font-family: serif;
+header a {
+    width: 550px;
+    display: block;
+    margin: 0 auto;
 }
+header img.logo {
+    width: 100%;
+    height: auto;
+    padding: 4.5% 0;
+}
+
 /* NAVIGATION */
 .navbar-inverse {
     background: transparent;
@@ -148,6 +154,9 @@ i.fa {
     list-style: none;
     border-left: solid 1px #fff;
     padding-left: 6px;
+}
+.footer a {
+    color: #fff;    
 }
 
 .copyrigth p {
