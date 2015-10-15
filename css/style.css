@@ -1,24 +1,29 @@
 body {
     background-color: #e7e8e9;
 }
+
 .page_wrapper {
-    width: 88%;
+    width: 89%;
     margin: 0 auto;
     border: none;
-    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container {
-    width: 75%;    
+    width: 78%;
 }
-header, .content {
-    background-color: #fff;   
+
+header,
+.content {
+    background-color: #fff;
 }
+
 header a {
     width: 550px;
     display: block;
     margin: 0 auto;
 }
+
 header img.logo {
     width: 100%;
     height: auto;
@@ -26,6 +31,7 @@ header img.logo {
 }
 
 /* NAVIGATION */
+
 .navbar-inverse {
     background: transparent;
     background-color: rgba(0, 0, 0, 0.45);
@@ -35,15 +41,50 @@ header img.logo {
 }
 
 li {
-    font-size: 12px;    
-}
-.carousel{
-    width: 100%;
-    z-index: -9999;
-    margin-top: -4%;
-    display:inline-block;
+    font-size: 12px;
 }
 
+.navbar-toggle {
+    background-color: transparent;
+    float: right;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    padding: 9px 10px;
+}
+
+.navbar-toggle .icon-bar {
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+
+/* HEADER IMAGE */
+
+#slides {
+    z-index: -9999;
+    position: relative;
+    top: -50px;
+}
+
+img.slideshow-image {
+    width: 100%;
+    height: 620px;
+}
+
+.slides_container {
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+}
+
+.pagination {
+    display: none;
+}
+
+#sl {
+    position: relative;
+}
 
 .banner {
     width: 100%;
@@ -51,79 +92,98 @@ li {
     letter-spacing: 1px;
     line-height: 2;
     color: #fff;
-    background-color: #612c5b; 
+    background-color: #612c5b;
     padding: 2% 0;
-    margin-top: -1.5%;
+    margin-top: -5%;
+}
 
+.banner p {
+    padding-top: 2.5%;
 }
-.banner p{
-    padding-top: 2.5%;    
-}
+
+
 /* CONTENT */
 
 .row {
     padding-top: 4%;
 }
+
 .col-sm-8 h4 {
     color: #612c5b;
     font: 800 17px Lato, serif;
     letter-spacing: normal;
 }
+
 .col-sm-8 p {
     color: #58595b;
-    font:15px Lato;
+    font: 15px Lato;
     line-height: 1.5;
 }
+
 .col-sm-8 {
-    padding-bottom: 3%;    
+    padding-bottom: 3%;
 }
+
+
 /* ASIDE-RIGTH */
+
 .aside-rigth {
     padding-top: 4%;
     padding-left: 10%;
     background: url('../img/bg1.png')no-repeat;
 }
+
 .btn {
     background-color: #612c5b;
     color: #fff;
     padding: 2.5% 7%;
 }
 
+
 /* CONTACT */
+
 .contact p {
     font: 15px Lato, serif;
     color: #58595b;
 }
+
 .aside-rigth h4 {
     padding: 2% 0;
-    font: 600 15px Lato,serif;
+    font: 600 15px Lato, serif;
     color: #612c5b;
     letter-spacing: normal;
 }
+
 hr {
     width: 100%;
     height: 2px;
     background-color: #9d9d9f;
 }
 
+
 /* CONNECT */
+
 i.fa {
-    background-color:  #612c5b;
+    background-color: #612c5b;
     text-align: center;
     border-radius: 50%;
     color: #fff;
     margin-right: 5px;
 }
+
 .social img {
     width: 77px;
     height: auto;
     margin-left: 8px;
 }
+
 /* ACCREDITATIONS */
-.accreditations img{
+
+.accreditations img {
     margin-right: 7px;
     width: 20%;
 }
+
 /* PORTFOLIO*/
 
 .portfolio-wrapper {
@@ -131,28 +191,31 @@ i.fa {
     text-align: left;
     padding-bottom: 2.5%;
 }
+
 .portfolio-wrapper .row {
-    padding-top: 2.5%;    
+    padding-top: 2.5%;
 }
-.portfolio-wrapper h4{
-    font:600 15px Lato,serif;
+
+.portfolio-wrapper h4 {
+    font: 600 15px Lato, serif;
     color: #612c5b;
     letter-spacing: normal;
     margin-top: 3%;
     margin-bottom: 0;
 }
 
-.portfolio-wrapper img{
+.portfolio-wrapper img {
     width: 100%;
     margin-bottom: 15px;
 }
-.portfolio-wrapper span{
+
+.portfolio-wrapper span {
     font: 15px Lato, serif;
     color: #58595b;
-    
 }
 
- /* FOOTER */
+
+/* FOOTER */
 
 .footer {
     background: #58595b;
@@ -160,16 +223,19 @@ i.fa {
     padding-bottom: 1.5%;
     font: 14px Lato, serif;
 }
+
 .footer .row {
-    padding-top: 2.5%;    
+    padding-top: 2.5%;
 }
+
 .footer ul {
     list-style: none;
     border-left: solid 1px #fff;
     padding-left: 6px;
 }
+
 .footer a {
-    color: #fff;    
+    color: #fff;
 }
 
 .copyrigth p {
@@ -177,25 +243,107 @@ i.fa {
     margin-top: 8%;
 }
 
-/* Fade Slider CSS*/ 
-.carousel .item {
-  -webkit-transition: 0.7s ease-in-out opacity;
-  -moz-transition: 0.7s ease-in-out opacity;
-  -o-transition: 0.7s ease-in-out opacity;
-  transition: 0.7s ease-in-out opacity;
-  left: 0 !important;
+
+/* MEDIA */
+
+@media screen and (max-width:1280px) {
+    li {
+        font-size: 12px;
+    }
 }
-.carousel .next.left,
-.carousel .prev.right {
-  opacity: 1;
-  z-index: 1;
+
+@media screen and (max-width:1220px) {
+    #slides {
+        top: -100px;
+    }
+    img.slideshow-image {
+        height: 500px;
+    }
+    .slides_container {
+        height: 500px;
+    }
+    .banner {
+        margin-top: -12%;
+    }
 }
-.carousel .active.left,
-.carousel .active.right {
-  opacity: 0;
-  z-index: 2;
-}     
-.carousel .carousel-control {
-  z-index: 1000;
-  outline:none;
+
+@media screen and (max-width:980px) {
+    .navbar-nav li a {
+        padding-top: 5px;
+        padding-bottom: 7px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    img.slideshow-image {
+        height: 420px!important;
+    }
+    .slides_container {
+        height: 420px;
+    }
+    .banner {
+        margin-top: -14%!important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    header a {
+        width: 85%;
+    }
+    li {
+        font-size: 10px;
+    }
+    img.slideshow-image {
+        height: 350px!important;
+    }
+    .slides_container {
+        height: 350px;
+    }
+    .banner {
+        line-height: 1.3;
+        font-size: 12px;
+        margin-top: -15%!important;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .banner {
+        margin-top: -18%!important;
+    }
+}
+
+@media screen and (max-width:625px) {
+    img.slideshow-image {
+        height: 280px!important;
+    }
+    .slides_container {
+        height: 280px;
+    }
+    .banner {
+        margin-top: -22%!important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    img.slideshow-image {
+        height: 220px!important;
+    }
+    .slides_container {
+        height: 220px;
+    }
+    .banner {
+        margin-top: -28%!important;
+    }
+}
+
+@media screen and (max-width:400px) {
+    img.slideshow-image {
+        height: 180px!important;
+    }
+    .slides_container {
+        height: 180px;
+    }
+    .banner {
+        margin-top: -35%!important;
+    }
 }
